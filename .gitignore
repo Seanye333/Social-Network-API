@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file (if you use one, e.g., .env)
+.env
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Debugging files
+.debug
+.vscode/
+*.swp
+*.swo
+
+# IDE files
+.idea/
+
+# macOS
+.DS_Store
+
+# Thumbnails (Windows)
+Thumbs.db
+
+# Cache and build directories
+.cache/
+dist/
+out/
+
+# Environment configuration
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore config files for IDEs/editors
+.editorconfig
