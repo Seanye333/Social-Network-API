@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // Create a new mongoose Schema object 
 const Schema = mongoose.Schema;
 
-// Create DB structure
+// Defining the userSchema
 const userSchema = new Schema({
   username: {
     type: String,

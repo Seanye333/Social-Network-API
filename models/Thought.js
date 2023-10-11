@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // Create a new mongoose Schema object 
 const Schema = mongoose.Schema;
 
-// Create DB structure
+// Defining the reactionSchema
 const reactionSchema = new Schema({
 // unique identifier for the reaction
     reactionId: {
@@ -30,7 +30,7 @@ const reactionSchema = new Schema({
   }
 });
 
-// Create DB structure
+// Defining the thoughtSchema
 const thoughtSchema = new Schema({
 // content of the thought
   thoughtText: {
